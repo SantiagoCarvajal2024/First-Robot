@@ -51,7 +51,7 @@ void default_constants() {
 ///
 // Drive Example
 ///
-void drive_example() {
+void auto_1() {
   chassis.pid_drive_set(24_in, 127, true);
   chassis.pid_wait();
 }
