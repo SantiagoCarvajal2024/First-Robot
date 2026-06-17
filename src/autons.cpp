@@ -54,6 +54,8 @@ void default_constants() {
 void auto_1() {
   chassis.pid_drive_set(24_in, 127, true);
   chassis.pid_wait();
+  chassis.pid_turn_set(90_deg, 1217, true);
+  chassis.pid_wait();
 }
 
 ///

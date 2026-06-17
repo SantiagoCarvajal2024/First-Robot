@@ -425,7 +425,8 @@
     },
     "upload_options": {
       "description": "I LOVE VEX",
-      "icon": "pizza"
+      "icon": "pizza",
+      "slot": 2
     },
     "use_early_access": false
   }
